@@ -1,0 +1,154 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+.footer-area {
+    background: #14ADF3;
+    padding: 70px 0;
+}
+
+.footer-area,
+.footer-area a {
+    color: #fff;
+}
+
+.footer-area p {
+    font-size: 95%;
+    line-height: 1.7;
+}
+
+.single-footer-item h3 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.social-icon a {
+    font-size: 20px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.single-footer-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-footer-item ul li {
+    text-transform: uppercase;
+    font-size: 95%;
+    line-height: 1.7;
+}
+
+.contact-info {
+    position: relative;
+    padding-left: 20px;
+}
+
+.contact-info i.fa {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.subscribe-form {
+    margin-top: 25px;
+}
+
+.subscribe-form input[type="email"],
+input[type="submit"] {
+    background: #fff;
+    border: none;
+    padding: 8px;
+}
+
+.subscribe-form input[type="submit"] {
+    color: #14ADF3;
+    background: #fff;
+    font-weight: bold;
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.subscribe-form input[type="email"] {
+    width: 72%;
+}
+
+.subscribe-form h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-extra-area {
+    color: #fff;
+    padding: 30px 0 40px 0;
+    background: #F09300;
+}
+
+.footer-extra-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-extra-area ul li {
+    display: inline-block;
+}
+
+.footer-extra-area ul li a {
+    color: #fff;
+    padding-right: 10px;
+    text-transform: capitalize;
+}
+
+.footer-extra-area ul li:after {
+    content: '|';
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.footer-extra-area ul li:last-child:after {
+    display: none;
+}
